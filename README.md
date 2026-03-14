@@ -1,5 +1,5 @@
 MedScan-AI
-🏥 MedScan-AI: Medical Image Analysis Pipeline
+MedScan-AI: Medical Image Analysis Pipeline
 
 MedScan-AI, göğüs röntgeni (CXR) görüntülerinden otomatik hastalık teşhisi (COVID-19, Pnömoni) gerçekleştiren ve doktorlar için dijital raporlama sunan bir yapay zeka sistemidir.
 
