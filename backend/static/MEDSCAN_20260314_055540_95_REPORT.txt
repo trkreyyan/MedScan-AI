@@ -1,0 +1,6 @@
+MEDSCAN AI ANALİZ RAPORU
+Referans: MEDSCAN_20260314_055540_95
+Tarih: Sat Mar 14 05:55:40 2026
+Teşhis: COVID
+Güven: %71.0
+Uyarı: Yok
