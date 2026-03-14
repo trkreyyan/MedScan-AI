@@ -9,9 +9,7 @@ MedScan-AI, göğüs röntgeni (CXR) görüntülerinden otomatik hastalık teşh
 - **Triage (Önceliklendirme) Sistemi:** COVID veya Pnömoni saptanan vakalar, doktorun iş akışını hızlandırmak için otomatik olarak "YÜKSEK ÖNCELİKLİ" bayrağıyla işaretlenir.
 - **Metadata Stripping:** Hasta gizliliği ve etik AI ilkeleri gereği, yüklenen tüm görüntülerdeki EXIF ve kişisel veriler işleme aşamasında otomatik olarak temizlenir.
 
-Güvenlik ve Hata Yönetimi (Kılavuz 3.4 Uyumluluğu)
-
-Jüri değerlendirme kriterlerine uygun olarak sistemimize aşağıdaki güvenlik zırhları entegre edilmiştir:
+Güvenlik ve Hata Yönetimi
 
 1.  **Image Quality Gate:** `Laplacian Variance` algoritması ile bulanık veya düşük çözünürlüklü görüntüler otomatik tespit edilerek "Düşük Kalite" uyarısı verilir.
 2.  **Content Validation:** Standart dışı renk profiline sahip (röntgen olmayan) görüntüler için sistem uyarı üretir.
